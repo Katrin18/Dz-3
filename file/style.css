@@ -1,0 +1,224 @@
+.basic{
+    background: red;
+    width:700px;
+    height: 800px;
+    padding: 3px;
+    margin: 3px;
+}
+.pink{
+    background: deeppink;
+    color: black;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+    position: relative;
+}
+.white{
+    width: 500px;
+    height: 130px;
+    background: white;
+    position: absolute;
+    top:40px;
+    left: 90px;
+}
+.black1{
+    width: 350px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    top:40px;
+    left:80px;
+}
+.silver{
+    background: silver;
+    color: black;
+    height: 15px;
+    width: 700px;
+    text-align:center;
+    font-size: 15px;
+    clear: both;
+
+
+}
+.red1{
+    background: red;
+    height: 100px;
+    width:calc(100%/4);
+    float:left;
+
+
+}
+.oran1{
+    background: orange;
+    height: 100px;
+    width:calc(100%/4);
+    float:left;
+
+
+
+}
+.blue1{
+    background: dodgerblue;
+    height: 100px;
+    width:calc(100%/4);
+    float:left;
+
+}
+.yellow1{
+    background: yellow;
+    height: 100px;
+    width:calc(100%/4);
+
+
+}
+
+.green{
+    text-align: center;
+    height: 340px;
+    width: calc(100%/3);
+    float:left;
+    background: green;
+}
+.left{
+    background: orange;
+    height: 30px;
+    width: 180px;
+    position: relative;
+    top:40px;
+    left:20px;
+}
+.a-left{
+    background: pink;
+    height: 200px;
+    width: 90px;
+    position: relative;
+    top:40px;
+    left:20px;
+}
+.b-left{
+    background: yellow;
+    height: 200px;
+    width: 90px;
+  position: relative;
+    left:110px;
+    top:-160px;
+}
+.blue2{
+    background: dodgerblue;
+    text-align: center;
+    height: 340px;
+    width: calc(100%/3);
+    float: left;
+
+}
+.red2{
+    background: red;
+    position: relative;
+    top:58px;
+    height: 282px;
+    width: calc(100%/3);
+    float: left;
+}
+.a-centr{
+    background: yellow;
+    position: relative;
+    top:40px;
+    height: 281px;
+    width: calc(100%/3);
+    float: left;
+
+
+
+}
+.oran2{
+    background: orange;
+    position: relative;
+    top:40px;
+    height: 281px;
+    width: calc(100%/3);
+    float: left;
+
+
+}
+
+.blue3{
+    background: mediumblue;
+    text-align: center;
+    height: 340px;
+    width: calc(100%/3);
+    float: left;
+
+
+}
+
+.black2{
+    background: black;
+    width: 700px;
+    height: 130px;
+    text-align: center;
+    color: white;
+    float:left;
+
+}
+.target1{
+    background: deepskyblue;
+    width: calc(100%/3);
+    height: 120px;
+    position: relative;
+    top:170px;
+    float: left;
+}
+.target2{
+    background: yellow;
+    width: calc(100%/3);
+    height: 120px;
+    float: left;
+    position: relative;
+    top:90px;
+}
+.target3{
+    background: orange;
+    width: calc(100%/3);
+    height: 120px;
+    float: left;
+    position: relative;
+    top:30px;
+
+}
+.text1{
+    background: black;
+    color: deepskyblue;
+    width: 50px;
+    height: 20px;
+    position: relative;
+    top:70px;
+
+}
+.text2{
+    background: black;
+    color: deepskyblue;
+    width: 50px;
+    height: 20px;
+    position: relative;
+    top:10px;
+   left: 30px;
+
+}
+.A-c{
+    height: 248px;
+    width: calc(100%/2);
+    background: orange;
+    position: relative;
+    top:15px;
+    float: left;
+}
+.B-c{
+    height: 150px;
+    width: calc(100%/2);
+    background: red;
+    position: relative;
+    top:113px;
+    float: left;
+
+
+}
