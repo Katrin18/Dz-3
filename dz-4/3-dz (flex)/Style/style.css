@@ -1,0 +1,52 @@
+body{
+    font-size: 0;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 740px;
+    background: black;
+    padding: 3px;
+    margin: 3px;
+}
+.color{
+    display: flex;
+    flex-direction: row;
+
+}
+.oran1{
+    height: 100px;
+    width:740px;
+    background: orange;
+}
+.oran2{
+    height: 100px;
+    width:740px;
+    background: orange;
+
+
+}
+.red{
+    background: red;
+    height: 200px;
+    width:calc(100%/4);
+
+}
+.green{
+    background: green;
+    height:200px;
+    width:calc(100%/4);
+}
+
+.blue{
+    background: blue;
+    height:200px;
+    width:calc(100%/4);
+
+}
+.black{
+    background: black;
+    height:200px;
+    width:calc(100%/4);
+}

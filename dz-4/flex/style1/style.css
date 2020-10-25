@@ -1,0 +1,84 @@
+
+.box_list{
+    height: 35px;
+    display: flex;
+  justify-content: center;
+}
+
+.box {
+
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+.target{
+    background: darkred;
+    height: 100px;
+}
+.box_list2{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+.box {
+
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+
+.box2 {
+
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+
+}
+.section{
+    color: white;
+    position: relative;
+    top: 44px;
+    left: 120px;
+    font-weight: bold;
+}
+.text1{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-family: Ebrima, serif;
+}
+
+.text2{
+    color: white;
+    font-size: 15px;
+    font-family: Ebrima, serif;
+    text-align: center;
+}
+.lang{
+    color: white;
+
+position: relative;
+    top:-44px;
+left:1150px;
+    font-weight: bold;
+
+}
+.club{
+    color: white;
+    position: relative;
+    top:-64px;
+    left:1300px;
+    font-weight: bold;
+
+
+
+}
+
+
