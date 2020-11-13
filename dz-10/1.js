@@ -7,30 +7,25 @@
 // -- перебрать массив при помощи map() и получить новый массив в котором все значения будут в 3 раза больше
 
 
-// let arr=[5,18,35,75,85,99,6,1,47,3,6,20,85,96,101,41,2,36,7,10];
-//
-// const sort=arr.sort((a,b)=>{
-// return a-b;
-// })
+let arr=[5,18,35,75,85,99,6,1,47,3,6,20,85,96,101,41,2,36,7,10];
+
+// const sort=arr.sort((a,b)=>a-b);
 // console.log(sort);
-//
-// const sort1=arr.sort((a,b)=>{
-//     return b-a;
-// })
+
+// const sort1=arr.sort((a,b)=>b-a)
 // console.log(sort1);
-//
+
 // const filter1=arr.filter((value) =>(value%3===0));
 // console.log(filter1);
-//
+
 // const filter2=arr.filter((value) =>(value%10===0));
 // console.log(filter2);
-//
+
 // arr.forEach(value => {
 //     console.log(value);
 // })
-// const map=arr.map((value, index) => {
-//     return value*3;
-// })
+
+// const map=arr.map((value, index) => value*3)
 // console.log(map);
 
 
@@ -57,9 +52,7 @@ let words=['black','table','window','sun','tea','apple','house','car','scholl','
 // const filter=words.filter((value) =>(value.length<4));
 // console.log(filter);
 
-// const map=words.map(value => {
-//     return value+'!';
-// })
+// const map=words.map(value => value+'!')
 // console.log(map);
 
 
@@ -72,30 +65,21 @@ let users = [ {name: 'vasya', age: 31, status: false}, {name: 'petya', age: 30, 
 // - пройтись по ньому та додати кожному юзеру поле id - яке характеризує унікальний індентифікатор (По якому принципу його створювати - ваше рішення), та зберегти це в новий масив (первинний масив залишиться без змін)
 // - відсортувати його за індентифікатором
 
-// const sortAge=users.sort((a, b) => {
-//     return a.age-b.age;
-// })
+// const sortAge=users.sort((a, b) => a.age-b.age)
 // console.log(sortAge);
 
-// const sortNumber=users.sort((a, b) => {
-//    return a.name.length-b.name.length;
-// })
+// const sortNumber=users.sort((a, b) => a.name.length-b.name.length)
 //  console.log(sortNumber);
 
-// const sortNumberDecr=users.sort((a, b) => {
-//     return b.name.length - a.name.length;
-// })
+// const sortNumberDecr=users.sort((a, b) => b.name.length - a.name.length);
 //  console.log(sortNumberDecr);
 
 // const map=users.map(value => {
 //     value.id=Math.round(Math.random() * 50);
-//     return value;
-// })
+//     return value})
 // console.log(map);
 
-// const sortId=users.sort((a, b) => {
-//     return a.id-b.id;
-// })
+// const sortId=users.sort((a, b) => a.id-b.id)
 // console.log(sortId);
 
 
@@ -106,18 +90,10 @@ let users = [ {name: 'vasya', age: 31, status: false}, {name: 'petya', age: 30, 
 // function calculator(a,b,callback){
 //     return callback(a,b);
 // }
-// const sum=calculator(20,10,(a,b)=>{
-// return a+b;
-// })
-// const sub=calculator(20,10,(a,b)=>{
-//     return a-b;
-// })
-// const mul=calculator(20,10,(a,b)=>{
-//     return a*b;
-// })
-// const dil=calculator(20,10,(a,b)=>{
-//     return a/b;
-// })
+// const sum=calculator(20,10,(a,b)=>a+b)
+// const sub=calculator(20,10,(a,b)=>a-b)
+// const mul=calculator(20,10,(a,b)=>a*b)
+// const dil=calculator(20,10,(a,b)=>a/b)
 //
 //
 //
