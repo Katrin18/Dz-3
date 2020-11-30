@@ -14,8 +14,8 @@
 
 
 let count=0;
-let speed=Math.random()*(1000-100)+100;
-let text='Hello world !';
+const speed=Math.random()*(1000-100)+100;
+const text='Hello world !';
 function writer(){
     if(count<text.length){
         console.log(text[count]);
